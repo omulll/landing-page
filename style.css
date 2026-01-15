@@ -159,4 +159,15 @@ a {
 
 .porterzone {
     background-image: url("./images/portermove.gif");
+    
+}
+
+.gifdump {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 100px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
