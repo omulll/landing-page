@@ -108,12 +108,13 @@ a {
     font-weight: 300;
     font-style: italic;
     margin: 0 200px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .quote .bodyText {
     font-weight: bold;
-    margin-left: auto;
+    align-self: flex-end;
+    margin: 0 200px;
 }
 
 .end {
