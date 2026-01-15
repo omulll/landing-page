@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -96,6 +101,7 @@ a {
     align-items: center;
     text-align: center;
     width: 200px;
+    gap: 10px;
 }
 
 .quote {
