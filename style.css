@@ -160,15 +160,34 @@ a {
 
 .porterzone {
     background-image: url("./images/portermove.gif");
+    display: flex;
+    flex-direction: column;
     
+}
+
+.portertext {
+    font-size: 24px;
+    color: #38f648;
+    font-weight: bold;
 }
 
 .gifdump {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 30px 100px;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.porterzone .button {
+    border-radius: 5px;
+    background-color: #38f648;
+    padding: 7px 25px;
+    width: 65px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
 }
