@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: Roboto, serif;
 }
 
 ul {
@@ -29,34 +29,38 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    padding-left: 100px;
 }
 
 .intro {
     display: flex;
     background-color: #1F2937;
-    padding: 50px 110px;
+    padding: 50px 200px;
 }
 
-.heroText {
+.hero {
     display: flex;
     width: 400px;
     height: 300px;
     flex-direction: column;
+
 }
 
-.hero {
+.hero .headerText{
     font-size: 48px;
     color: #F9FaF8;
     font-weight: 900;
+    padding-bottom: 5px;    
 }
 
-.heroSecondary {
+.hero .bodyText {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
 }
 
-.button1 {
+.hero .button {
     border-radius: 5px;
     background-color: #3882F6;
     padding: 7px 25px;
@@ -65,16 +69,74 @@ a {
     font-weight: bold;
 }
 
+.information .headerText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px 0px;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+}
 
-.information {
-
+.block {
+    border-color: red;
+    border-radius: 5px;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
 
+.quote .headerText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
 }
 
 .end {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 100px auto;
+    width: 830px;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.endText {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.end .headerText {
+    font-size: 24px;
+}
+
+.end .button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 7px 25px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
