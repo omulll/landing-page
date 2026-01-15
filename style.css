@@ -69,37 +69,51 @@ a {
     font-weight: bold;
 }
 
+.information {
+    padding: 40px 0 80px 0;
+}
+
 .information .headerText {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
-    padding: 40px 0px;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .block {
-    border-color: red;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border: 2px solid red;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #E5E7EB;
-    padding: 100px 0;
+    padding: 100px;
 }
 
 .quote .headerText {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
+    margin: 0 200px;
+    align-self: center;
+}
+
+.quote .bodyText {
+    font-weight: bold;
+    margin-left: auto;
 }
 
 .end {
